@@ -8,75 +8,96 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="images/LogoRoberthRios.png" alt="Logo de la página">
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ol>
-                        <li><a href="#familia">Familia</a></li>
-                        <li><a href="#niñez">Niñez</a></li>
-                        <li><a href="#estudios">Escolar y Universitaria</a></li>
-                        <li><a href="#futuro">Futuro</a></li>
-                        <li><a href="#pasatiempo">Pasatiempos</a></li>
-                        <li><a href="#contacto">Contactos</a></li>
+                        <li><a class="link" href="#niñez">Niñez</a></li>
+                        <li><a class="link" href="#estudios">Escolar y Universitaria</a></li>
+                        <li><a class="link" href="#futuro">Futuro</a></li>
+                        <li><a class="link" href="#pasatiempo">Pasatiempos</a></li>
+                        <li><a class="link" href="#contacto">Contactos</a></li>
                     </ol>
                 </nav>
             </div>
         </header>
-        <section id="familia">
+        <section class="hero">
             <h1>Hola mi nombre es <strong>Roberth Rios</strong> y soy desarrollador <br> <strong>web</strong>  
                 con pasión por el aprendizaje,<br> y esta es mi familia</h1>
             <img src="images/familia01.jpg" alt="Imagen de Familia" width="500">
         </section>
-        <section id="niñez">
+        <section id="niñez" class="kid">
             <h2>Mi Niñez</h2>
-            <article>
-                <h3>Ejemplo 01</h3>
-                <h6>Descripcion 01</h6>
-                <p><small><strong>Fecha:</strong> 21/01/2021</small></p>
-                <p><small><strong>Instagram:</strong> www.instagram.com/roberthrj</small></p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+            <article class="historia">
+                <h3 class="historia-title">Titulo de Niñez</h3>
+                <p class="historia-date"><small><strong>Fecha:</strong> 21/01/2021</small></p>
+                <p class="historia-url"><small><strong>Instagram:</strong> www.instagram.com/roberthrj</small></p>
+                <p class="historia-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
                     dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
                 </p>
-                <figure>
-                    <img src="images/ninez.jpg" alt="Imagen de Niñez" width="500">
+                <figure class="historia-imageContainer">
+                    <img class="historia-image" src="images/ninez.jpg" alt="Imagen de Niñez" width="500">
                 </figure>
             </article>
         </section>
-        <section id="estudios">
+        <section id="estudios" class="studies">
             <h2>Etapa Escolar y Universitaria</h2>
-            <article>
-                <figure>
-                    <img src="images/escuela.jpg" alt="Imagen Etapa Escolar" width="500">
+            <article class="school">
+                <figure class="school-imageContainer">
+                    <img class="school-image" src="images/escuela.jpg" alt="Imagen Etapa Escolar" width="500">
                 </figure>
-                <h3>Mi Etapa Escolar</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                <h3 class="school-title">Mi Etapa Escolar</h3>
+                <p class="school-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
                     dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
                 </p>
             </article>
-            <article>
-                <figure>
-                    <img src="images/universidad.jpg" alt="Imagen Etapa Universitaria" width="500">
+            <article class="university">
+                <figure class="university-imageContainer">
+                    <img class="university-image" src="images/universidad.jpg" alt="Imagen Etapa Universitaria" width="500">
                 </figure>
-                <h3>Mi Etapa Universitaria</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                <h3 class="university-title">Mi Etapa Universitaria</h3>
+                <p class="university-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
                     dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
                 </p>
             </article>
         </section>
-        <section id="futuro">Planes de Futuro</section>
-        <section id="pasatiempo">Pasatiempos</section>
-        <section id="contacto">
-            <form action="/suscripcion/">
+        <section id="futuro" class="future">
+            <h2>Planes de Futuro</h2>
+            <article class="planes">
+                <h3 class="planes-title">Titulo de Futuro</h3>
+                <p class="planes-date"><small><strong>Fecha:</strong> 22/01/2021</small></p>
+                <p class="planes-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                    dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
+                </p>
+                <figure class="planes-imageContainer">
+                    <img class="planes-image" src="images/futuro.jpg" alt="Imagen de Futuro" width="500">
+                </figure>
+            </article>
+        </section>
+        <section id="pasatiempo" class="time">
+            <h2>Pasatiempos</h2>
+            <article class="hobbie">
+                <h3 class="hobbie-title">Titulo de Pasatiempo</h3>
+                <p class="hobbie-url"><small><strong>Archivos: </strong>www.archivos.com</small></p>
+                <p class="hobbie-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                    dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
+                </p>
+                <figure class="hobbie-imageContainer">
+                    <img class="hobbie-image" src="images/pasatiempo.jpg" alt="Imagen de pasatiempo" width="500">
+                </figure>
+            </article>
+        </section>
+        <section id="contacto" class="contact">
+            <form action="/suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email">
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>
-
+        <footer class="footer">
         </footer>
     </body>
 </html>
