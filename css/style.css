@@ -12,6 +12,7 @@ font-family: 'Roboto', sans-serif;
 body{
 
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 h1,
@@ -55,12 +56,20 @@ h1 strong{
     background-position-x: right;
 }
 
+.kid{
+    background-color: #0496FF;
+}
+
 .historia {
     /*border-color: #D81159;
     border-width: 15px;
     border-style: solid;*/
+    background-color: #FFBC42;
     border: 1px solid #D81159;
     border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
 }
 
 .historia-details{
