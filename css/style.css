@@ -4,4 +4,69 @@ CELESTE = #0496FF
 AMARILLO = #FFBC42
 ROSADO ROJISO = #D81159
 ROJO PALIDO = #8F2D56
+
+TIPO DE FUENTES
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
+body{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+
+}
+
+h1{
+    color: #1B5EB5;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -3.5px;
+}
+
+h1 strong{
+    color: #D81159;
+}
+
+.header{
+    background-color: #1B5EB5;
+    color: #FFBC42;
+}
+
+.header a{
+    color: #FFBC42;
+    text-decoration: none;
+}
+
+.hero{
+    height: 300px;
+    background-image: url('../images/familia01.jpg');
+    background-color: #FFBC42;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.historia {
+    /*border-color: #D81159;
+    border-width: 15px;
+    border-style: solid;*/
+    border: 1px solid #D81159;
+    border-radius: 10px;
+}
+
+.historia-details{
+    width: 50%;
+}
+
+.historia-imageContainer{
+    width: 50%;
+}
