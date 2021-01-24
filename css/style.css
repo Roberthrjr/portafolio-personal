@@ -64,6 +64,12 @@ h2 {
     justify-content: space-between;
     height: 70px;
     align-items: center;
+    flex-wrap: wrap;
+    z-index: 99;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
 }
 
 .logo img {
@@ -166,31 +172,112 @@ h2 {
 }
 
 .studies {
+    margin-left: 10px;
+}
 
+.studies-list {
+    display: flex;
 }
 
 .school {
-    border: 1px solid #D81159;
+    border: 1px solid #FFBC42;
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #FFBC42;
 }
 
-.school-imageContainer {
-
+.school img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .school-details {
+    margin: 20px 40px;
+    background-color: #1B5EB5;
+    margin-top: -40px;
+    position: relative;
+    color: #FFBC42;
+    padding: 20px;
+    text-align: center;
+    z-index: 0;
+}
 
+.school-description{
+    text-align: justify;
 }
 
 .university {
-    border: 1px solid #D81159;
+    border: 1px solid #FFBC42;
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #FFBC42;
 }
 
-.university-imageContainer {
-
+.university img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .university-details {
-    
+    margin: 20px;
+    background-color: #1B5EB5;
+    margin-top: -40px;
+    position: relative;
+    color: #FFBC42;
+    padding: 20px;
+    text-align: center;
+    z-index: 0;
+}
+
+.university-description {
+    text-align: justify;
+}
+
+.contact {
+    background-color: #1B5EB5;
+    color: #FFBC42;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    border: 1px solid #FFBC42;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFBC42;
+}
+
+.social-link.twitter {
+    background-image: url('../images/twitter.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.facebook {
+    background-image: url('../images/facebook.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.github {
+    background-image: url('../images/github.svg');
+    background-size: 50px 50px;
+}
+
+.social-link.instagram {
+    background-image: url('../images/instagram.svg');
+    background-size: 50px 50px;
 }
 
 .footer {
