@@ -11,117 +11,133 @@
 </head>
     <body>
         <header class="header">
-                <figure class="logo">
-                    <img src="images/LogoRoberthRios.png" alt="Logo de la página">
-                </figure>
-                <nav class="menu">
-                    <ol>
-                        <li><a class="link" href="#niñez">Niñez</a></li>
-                        <li><a class="link" href="#estudios">Escolar y Universitaria</a></li>
-                        <li><a class="link" href="#futuro">Futuro</a></li>
-                        <li><a class="link" href="#pasatiempo">Pasatiempos</a></li>
-                        <li><a class="link" href="#contacto">Contactos</a></li>
-                    </ol>
-                </nav>
+                <div class="container">
+                    <figure class="logo">
+                        <img src="images/LogoRoberthRios.png" alt="Logo de la página">
+                    </figure>
+                    <nav class="menu">
+                        <ol>
+                            <li><a class="link" href="#niñez">Niñez</a></li>
+                            <li><a class="link" href="#estudios">Escolar y Universitaria</a></li>
+                            <li><a class="link" href="#futuro">Futuro</a></li>
+                            <li><a class="link" href="#pasatiempo">Hobbie</a></li>
+                            <li><a class="link" href="#contacto">Contactos</a></li>
+                        </ol>
+                    </nav>
+                </div>
         </header>
         <section class="hero">
-            <h1>Hola! me llamo <strong>Roberth</strong> y soy <br><strong>Desarrollador Web</strong>  
-                con Pasión por el <br><strong>Aprendizaje</strong> y esta es mi <strong>Familia</strong></h1>
-            <img src="images/familia01.jpg" alt="Imagen de Familia" width="500">
+            <div class="container">
+                <h1>Hola! me llamo <strong>Roberth</strong> y soy <br><strong>Desarrollador Web</strong>  
+                    con Pasión por el <br><strong>Aprendizaje</strong> y esta es mi <strong>Familia</strong></h1>
+                <img class="hero-image" src="images/familia01.jpg" alt="Imagen de Familia" width="500" height="300">
+            </div>
         </section>
         <section id="niñez" class="kid">
-            <h2>Mi Niñez</h2>
-            <article class="historia">
-                <div class="historia-details">
-                    <h3 class="historia-title">Titulo de Niñez</h3>
-                    <p class="historia-date"><small><strong>Fecha:</strong> 21/01/2021</small></p>
-                    <p class="historia-url"><small><strong>Instagram:</strong> www.instagram.com/roberthrj</small></p>
-                    <p class="historia-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
-                        dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
-                    </p>
-                </div>
-                <figure class="historia-imageContainer">
-                    <img class="historia-image" src="images/ninez.jpg" alt="Imagen de Niñez" width="500">
-                </figure>
-            </article>
-        </section>
-        <section id="estudios" class="studies">
-            <h2>Etapa Escolar y Universitaria</h2>
-            <div class="studies-list">
-                <article class="school">
-                    <figure class="school-imageContainer">
-                        <img class="school-image" src="images/escuela.jpg" alt="Imagen Etapa Escolar" width="500">
-                    </figure>
-                    <div class="school-details">
-                        <h3 class="school-title">Mi Etapa Escolar</h3>
-                        <p class="school-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+            <div class="container">
+                <h2>Mi Niñez</h2>
+                <article class="historia">
+                    <div class="historia-details">
+                        <h3 class="historia-title">Titulo de Niñez</h3>
+                        <p class="historia-date"><small><strong>Fecha:</strong> 21/01/2021</small></p>
+                        <p class="historia-url"><small><strong>Instagram:</strong> www.instagram.com/roberthrj</small></p>
+                        <p class="historia-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
                         dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
                         </p>
                     </div>
-                </article>
-                <article class="university">
-                    <figure class="university-imageContainer">
-                        <img class="university-image" src="images/universidad.jpg" alt="Imagen Etapa Universitaria" width="500">
+                    <figure class="historia-imageContainer">
+                        <img class="historia-image" src="images/ninez.jpg" alt="Imagen de Niñez" width="500">
                     </figure>
-                    <div class="university-details">
-                        <h3 class="university-title">Mi Etapa Universitaria</h3>
-                        <p class="university-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
-                        dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
-                        </p>
-                    </div>
                 </article>
             </div>
         </section>
-        <section id="futuro" class="future">
-            <h2>Planes de Futuro</h2>
-            <article class="planes">
-                <div class="planes-details">
-                    <h3 class="planes-title">Titulo de Futuro</h3>
-                    <p class="planes-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
-                        dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
-                    </p>
+        <section id="estudios" class="studies">
+            <div class="container">
+                <h2>Etapa Escolar y Universitaria</h2>
+                <div class="studies-list">
+                    <article class="school">
+                        <figure class="school-imageContainer">
+                            <img class="school-image" src="images/escuela.jpg" alt="Imagen Etapa Escolar" width="500">
+                        </figure>
+                        <div class="school-details">
+                            <h3 class="school-title">Mi Etapa Escolar</h3>
+                            <p class="school-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                            dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="university">
+                        <figure class="university-imageContainer">
+                            <img class="university-image" src="images/universidad.jpg" alt="Imagen Etapa Universitaria" width="500">
+                        </figure>
+                        <div class="university-details">
+                            <h3 class="university-title">Mi Etapa Universitaria</h3>
+                            <p class="university-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                            dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
+                            </p>
+                        </div>
+                    </article>
                 </div>
+            </div>
+        </section>
+        <section id="futuro" class="future">
+            <div class="container">
+                <h2>Planes de Futuro</h2>
+                <article class="planes">
+                    <div class="planes-details">
+                        <h3 class="planes-title">Titulo de Futuro</h3>
+                        <p class="planes-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                        dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
+                        </p>
+                    </div>
                 <figure class="planes-imageContainer">
                     <img class="planes-image" src="images/futuro.jpg" alt="Imagen de Futuro" width="500">
                 </figure>
             </article>
+            </div>
         </section>
         <section id="pasatiempo" class="time">
-            <h2>Pasatiempos</h2>
-            <article class="hobbie">
-                <figure class="hobbie-imageContainer">
-                    <img class="hobbie-image" src="images/pasatiempo.jpg" alt="Imagen de pasatiempo" width="500">
-                </figure>
-                <div class="hobbie-details">
-                    <h3 class="hobbie-title">Titulo de Pasatiempo</h3>
-                    <p class="hobbie-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
-                        dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
-                    </p>
-                    <a class="hobbie-url" href="" target="_blank">Ver más</a>
-                </div>
-            </article>
+            <div class="container">
+                <h2>Pasatiempos</h2>
+                <article class="hobbie">
+                    <figure class="hobbie-imageContainer">
+                        <img class="hobbie-image" src="images/pasatiempo.jpg" alt="Imagen de pasatiempo" width="500">
+                    </figure>
+                    <div class="hobbie-details">
+                        <h3 class="hobbie-title">Titulo de Pasatiempo</h3>
+                        <p class="hobbie-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni voluptate ducimus nesciunt nulla 
+                            dolorum sunt fugit, eligendi natus quas ipsam amet aspernatur quae ea consectetur.
+                        </p>
+                        <a class="hobbie-url" href="" target="_blank">Ver más</a>
+                    </div>
+                </article>
+            </div>
         </section>
         <section id="contacto" class="contact">
-            <form action="/suscripcion/" class="form-email">
-                <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="Déjame tu email">
-                <button>Enviar</button>
-            </form>
-            <div class="social">
-                <a href="" class="social-link twitter"></a>
-                <a href="" class="social-link facebook"></a>
-                <a href="" class="social-link github"></a>
-                <a href="" class="social-link instagram"></a>
+            <div class="container">
+                <form action="/suscripcion/" class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Déjame tu email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="" class="social-link twitter"></a>
+                    <a href="" class="social-link facebook"></a>
+                    <a href="" class="social-link github"></a>
+                    <a href="" class="social-link instagram"></a>
+                </div>
             </div>
         </section>
         <footer class="footer">
-            <div>
-                <p>Portafolio de Roberth Rios 2021</p>
-            </div>
-            <div>
-                <p>
-                    Diseñado ❤  por <a href="https://www.linkedin.com/in/roberthrjr">@Roberthrjr</a>
-                </p>
+            <div class="container">
+                <div>
+                    <p>Portafolio de Roberth Rios 2021</p>
+                </div>
+                <div>
+                    <p>
+                        Diseñado ❤  por <a href="https://www.linkedin.com/in/roberthrjr">@Roberthrjr</a>
+                    </p>
+                </div>
             </div>
         </footer>
     </body>

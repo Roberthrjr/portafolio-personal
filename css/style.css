@@ -34,12 +34,11 @@ h5,
 h6{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-
 }
 
 h1{
     color: #1B5EB5;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 150%;
     letter-spacing: -3.5px;
     margin: 0px;
@@ -108,11 +107,16 @@ h2 {
     height: 300px;
     /*background-image: url('../images/familia01.jpg');*/
     background-color: #FFBC42;
-    background-size: 500px;
+    /*background-size: 500px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    object-fit: cover;
 }
 
 .kid{
@@ -132,7 +136,8 @@ h2 {
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    box-shadow: 3px 5px 33px #FFBC42;
 }
 
 .historia-details{
@@ -188,7 +193,7 @@ h2 {
 
 .studies-list {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 .school {
@@ -199,6 +204,7 @@ h2 {
     flex-shrink: 0;
     overflow: hidden;
     background-color: #1B5EB5;
+    box-shadow: 3px 5px 33px #1B5EB5;
 }
 
 .school img {
@@ -230,6 +236,7 @@ h2 {
     flex-shrink: 0;
     overflow: hidden;
     background-color: #1B5EB5;
+    box-shadow: 3px 5px 33px #1B5EB5;
 }
 
 .university img {
@@ -275,6 +282,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 3px 5px 33px #FFBC42;
 }
 
 .planes-details {
@@ -295,7 +303,10 @@ h2 {
 }
 
 .planes-imageContainer {
-    width: 40%;
+    /*width: 40%;*/
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 .time {
@@ -314,10 +325,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 3px 5px 33px #1B5EB5;
 }
 
 .hobbie-details {
-    width: 60%;
+    width: 45%;
 }
 
 .hobbie-title {
@@ -329,12 +341,23 @@ h2 {
 }
 
 .hobbie-imageContainer {
-    width: 40%;
+    /*width: 40%;*/
+    border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 .hobbie-description {
-    color: #FFBC42;
+    color: white;
     font-size: 20px;
+}
+
+.hobbie-url {
+    color: #FFBC42;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .form-email input{
@@ -398,4 +421,15 @@ h2 {
 
 .footer a {
     color: #D81159;
+}
+
+.container {
+    /*border: 1px solid #D81159;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    /*flex-wrap: inherit;*/
 }
