@@ -15,6 +15,17 @@ body{
     margin: 0px;
 }
 
+ol,
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure {
+    margin: 0px;
+}
+
 h1,
 h2,
 h3,
@@ -31,33 +42,75 @@ h1{
     font-size: 40px;
     line-height: 150%;
     letter-spacing: -3.5px;
+    margin: 0px;
 }
 
 h1 strong{
     color: #D81159;
 }
 
+h2 {
+    color: #FFBC42;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
 .header{
     background-color: #1B5EB5;
     color: #FFBC42;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
 }
 
-.header a{
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.header a {
     color: #FFBC42;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
 }
 
-.hero{
+.hero {
     height: 300px;
     background-image: url('../images/familia01.jpg');
     background-color: #FFBC42;
     background-size: 500px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .kid{
-    background-color: #0496FF;
+    background-color: #1B5EB5;
+    padding: 20px;
 }
 
 .historia {
@@ -65,17 +118,94 @@ h1 strong{
     border-width: 15px;
     border-style: solid;*/
     background-color: #FFBC42;
-    border: 1px solid #D81159;
+    /*border: 1px solid #D81159;*/
     border-radius: 10px;
-    margin: 10px;
+    /*margin: 10px;*/
     margin-bottom: 15px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .historia-details{
-    width: 50%;
+    width: 45%;
+}
+
+.historia-title {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #D81159;
+    text-transform: uppercase;
+}
+
+.historia-date {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #1B5EB5;
+}
+
+.historia-url {
+    color: #1B5EB5;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.historia-description {
+    color: #1B5EB5;
+    font-size: 20px;
 }
 
 .historia-imageContainer{
-    width: 50%;
+    width: 40%;
+}
+
+.historia strong {
+    font-family: 'Roboto', sans-serif;
+}
+
+.studies {
+
+}
+
+.school {
+    border: 1px solid #D81159;
+}
+
+.school-imageContainer {
+
+}
+
+.school-details {
+
+}
+
+.university {
+    border: 1px solid #D81159;
+}
+
+.university-imageContainer {
+
+}
+
+.university-details {
+    
+}
+
+.footer {
+    color: #D81159;
+    background-color: #FFBC42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;   
+}
+
+.footer a {
+    color: #1B5EB5;
 }
