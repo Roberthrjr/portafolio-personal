@@ -65,11 +65,12 @@ h2 {
     height: 70px;
     align-items: center;
     flex-wrap: wrap;
+    /*
     z-index: 99;
     width: 100%;
     left: 0;
     top: 0;
-    position: fixed;
+    position: fixed;*/
 }
 
 .logo img {
@@ -105,7 +106,7 @@ h2 {
 
 .hero {
     height: 300px;
-    background-image: url('../images/familia01.jpg');
+    /*background-image: url('../images/familia01.jpg');*/
     background-color: #FFBC42;
     background-size: 500px;
     background-repeat: no-repeat;
@@ -172,11 +173,17 @@ h2 {
 }
 
 .studies {
-    margin-left: 10px;
+    /*margin-left: 10px;*/
+    background-color: #FFBC42;
+    padding: 20px;
 }
 
 .studies h2 {
-    margin: 30px 0px 20px 0px;
+   /* margin: 30px 0px 20px 0px;*/
+   /*margin-top: 0px;*/
+   margin-top: 20px;
+   margin-bottom: 35px;
+   color: #1B5EB5;
 }
 
 .studies-list {
@@ -185,13 +192,13 @@ h2 {
 }
 
 .school {
-    border: 1px solid #FFBC42;
+    border: 1px solid #1B5EB5;
     margin: 10px;
     width: 480px;
     border-radius: 10px;
     flex-shrink: 0;
     overflow: hidden;
-    background-color: #FFBC42;
+    background-color: #1B5EB5;
 }
 
 .school img {
@@ -202,10 +209,10 @@ h2 {
 
 .school-details {
     margin: 20px 40px;
-    background-color: #1B5EB5;
+    background-color: #FFBC42;
     margin-top: -40px;
     position: relative;
-    color: #FFBC42;
+    color: #1B5EB5;
     padding: 20px;
     text-align: center;
     z-index: 0;
@@ -216,13 +223,13 @@ h2 {
 }
 
 .university {
-    border: 1px solid #FFBC42;
+    border: 1px solid #1B5EB5;
     margin: 10px;
     width: 480px;
     border-radius: 10px;
     flex-shrink: 0;
     overflow: hidden;
-    background-color: #FFBC42;
+    background-color: #1B5EB5;
 }
 
 .university img {
@@ -233,10 +240,10 @@ h2 {
 
 .university-details {
     margin: 20px;
-    background-color: #1B5EB5;
+    background-color: #FFBC42;
     margin-top: -40px;
     position: relative;
-    color: #FFBC42;
+    color: #1B5EB5;
     padding: 20px;
     text-align: center;
     z-index: 0;
@@ -307,6 +314,27 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.hobbie-details {
+    width: 60%;
+}
+
+.hobbie-title {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #FFBC42;
+    text-transform: uppercase;
+}
+
+.hobbie-imageContainer {
+    width: 40%;
+}
+
+.hobbie-description {
+    color: #FFBC42;
+    font-size: 20px;
 }
 
 .form-email input{
