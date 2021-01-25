@@ -136,7 +136,7 @@ h2 {
     padding: 20px;
     display: flex;
     align-items: center;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     box-shadow: 3px 5px 33px #FFBC42;
 }
 
@@ -166,11 +166,11 @@ h2 {
 
 .historia-description {
     color: #1B5EB5;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 .historia-imageContainer{
-    width: 40%;
+    /*width: 40%;*/
 }
 
 .historia strong {
@@ -224,6 +224,10 @@ h2 {
     z-index: 0;
 }
 
+.school-title {
+    color: #D81159;
+}
+
 .school-description{
     text-align: justify;
 }
@@ -243,6 +247,10 @@ h2 {
     width: 480px;
     height: 200px;
     object-fit: cover;
+}
+
+.university-title {
+    color: #D81159;
 }
 
 .university-details {
@@ -416,11 +424,22 @@ h2 {
 
 .footer p {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;   
+    font-size: 15px;
+    text-transform: uppercase;   
 }
 
 .footer a {
     color: #D81159;
+}
+
+.footer img {
+    width: 15px;
+    vertical-align: middle;
+    /*padding-left: 2px;
+    padding-bottom: 5px;*/
+    box-shadow: 3px 5px 33px #1B5EB5;
+    object-fit: cover;
+
 }
 
 .container {
